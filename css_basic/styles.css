@@ -3,18 +3,68 @@ body {
     flex-direction: column;
 }
 
+body {
+    background-color: cornsilk;
+}
+
+
 main {
     display: flex;
     flex-direction: row;
     flex: auto
 }
+footer {
+    
+    background-color: rgb(125, 205, 237);
+}
 
 article {
     flex: 2;
     overflow-y: auto;
+    background-color: rgb(183, 233, 234);
 }
 
 aside {
     flex: 1;
     overflow-y: auto;
+    background-color: rgb(125, 205, 237);
 }
+
+th {
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 3px solid;
+}
+
+table {
+    width: 50%;
+    height: 30%;
+    align-items:stretch;
+}
+
+nav a:hover {
+    color: brown;
+}
+
+table th {
+    background-color: aquamarine;
+    height: 30px;
+    align-content: center;
+}
+
+table td {
+    background-color: cadetblue;
+    text-align:center;
+}
+
+h1, h2, h3 {
+    color: rgb(240, 70, 70);
+}
+
+article a {
+    color: rgb(92, 92, 231);
+}
+
+
