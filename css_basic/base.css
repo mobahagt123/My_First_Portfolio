@@ -108,13 +108,13 @@ aside {
 header .right {
 	float: right;
 	margin: 0 10px 15px;
+    
 }
-
 
 /* Header */
 header {
 	padding: 20px 0;
-	height: 20px;
+	height: 30px;
 }
 header ul {
 	list-style: none;
@@ -124,6 +124,7 @@ header ul {
 header li {
 	display: inline;
 	vertical-align:middle;
+    
 }
 header li:first-child {
 	margin: 0;
@@ -132,7 +133,7 @@ header li a {
 	margin: 0 10px;
 }
 header li.logo {
-	font-size: 50px;
+	font-size: 35px;
 }
 header a {
 	text-decoration: none;
